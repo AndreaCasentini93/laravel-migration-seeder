@@ -12016,6 +12016,7 @@ header nav a img {
 
 #travels .travel img {
   width: 100%;
+  border-radius: 10px;
 }
 
 #travels .travel ul li {
@@ -12035,7 +12036,7 @@ header nav a img {
 }
 
 #travels .travel ul li ul li i {
-  margin: 0 2px;
+  margin: 0 0.5px;
   font-size: 11px;
   color: #daa520;
   text-shadow: 1px 1px 0 black;
@@ -12074,7 +12075,7 @@ header nav a img {
 }
 
 #travels .travel ul li.price {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
   color: #EC1C1C;
 }
