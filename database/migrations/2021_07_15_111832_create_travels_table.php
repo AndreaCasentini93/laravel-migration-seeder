@@ -18,12 +18,12 @@ class CreateTravelsTable extends Migration
             $table->string('title', 50);
             $table->string('image', 200);
             $table->string('location', 20);
-            $table->tinyInteger('stars');
+            $table->tinyInteger('stars')->unsigned();
             $table->string('address', 50);
-            $table->tinyInteger('vote');
-            $table->boolean('free_cancellation');
+            $table->tinyInteger('vote')->unsigned()->default(0);
+            $table->boolean('free_cancellation')->default(1);
             $table->string('room', 100);
-            $table->string('board', 20);
+            $table->string('board', 20)->nullable();
             $table->string('price', 10);
             $table->timestamps();
         });
