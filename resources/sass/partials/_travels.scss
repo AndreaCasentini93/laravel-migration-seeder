@@ -1,0 +1,12 @@
+#travels {
+    .travel {
+        width: calc(100% / 5 - 30px);
+        padding: 20px;
+        margin: 15px;
+        background-color: red;
+
+        img {
+            width: 100%;
+        }
+    }
+}
