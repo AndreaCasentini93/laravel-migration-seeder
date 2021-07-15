@@ -1,0 +1,66 @@
+<?php
+
+    return [
+        [
+            "title" => "",
+            "image" => "",
+            "location" => "",
+            "stars" => "",
+            "address" => "",
+            "vote" => "",
+            "free_cancellation" => "",
+            "room" => "",
+            "board" => "",
+            "price" => "",
+        ],
+        [
+            "title" => "",
+            "image" => "",
+            "location" => "",
+            "stars" => "",
+            "address" => "",
+            "vote" => "",
+            "free_cancellation" => "",
+            "room" => "",
+            "board" => "",
+            "price" => "",
+        ],
+        [
+            "title" => "",
+            "image" => "",
+            "location" => "",
+            "stars" => "",
+            "address" => "",
+            "vote" => "",
+            "free_cancellation" => "",
+            "room" => "",
+            "board" => "",
+            "price" => "",
+        ],
+        [
+            "title" => "",
+            "image" => "",
+            "location" => "",
+            "stars" => "",
+            "address" => "",
+            "vote" => "",
+            "free_cancellation" => "",
+            "room" => "",
+            "board" => "",
+            "price" => "",
+        ],
+        [
+            "title" => "",
+            "image" => "",
+            "location" => "",
+            "stars" => "",
+            "address" => "",
+            "vote" => "",
+            "free_cancellation" => "",
+            "room" => "",
+            "board" => "",
+            "price" => "",
+        ]
+    ];
+
+?>
