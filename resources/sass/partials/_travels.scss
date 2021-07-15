@@ -1,12 +1,89 @@
 #travels {
+    padding: 50px 0;
+    
     .travel {
         width: calc(100% / 5 - 30px);
-        padding: 20px;
+        padding: 15px;
+        border-radius: 10px;
         margin: 15px;
-        background-color: red;
+        background-color: #ffffffc5;
+        box-shadow: inset 0 0 10px 1px #808080;
+        transition: transform .3s;
+
+        &:hover {
+            transform: scale(1.08);
+        }
 
         img {
             width: 100%;
+        }
+
+        ul {
+            li {
+                margin: 5px 0;
+
+                &.title {
+                    font-size: 20px;
+                    font-weight: 700;
+                    color: #EC1C1C;
+                }
+
+                ul {
+                    li {
+
+                        &.location {
+                            margin-right: 3px;
+                            font-size: 12px;
+                            font-weight: 700;
+                        }
+
+                        i { 
+                            margin: 0 2px;
+                            font-size: 11px;
+                            color: #daa520;
+                            text-shadow: 1px 1px 0 black;
+                        }
+
+                        div {
+                            padding: 0;
+                            margin: 0;
+                        }
+                    }
+                }
+
+                &.address {
+                    font-size: 12px;
+                    text-decoration: underline;
+                }
+
+                &.vote {
+                    font-size: 16px;
+                    font-weight: 700;
+                    color: #1D84CD;
+                }
+
+                &.free_cancellation {
+                    font-size: 12px;
+                    font-weight: 500;
+                }
+
+                &.room {
+                    font-size: 14px;
+                    color: #808080;
+                }
+
+                &.board {
+                    font-size: 12px;
+                    font-weight: 500;
+                    color: #1D84CD;
+                }
+
+                &.price {
+                    font-size: 16px;
+                    font-weight: 700;
+                    color: #EC1C1C;
+                }
+            }
         }
     }
 }

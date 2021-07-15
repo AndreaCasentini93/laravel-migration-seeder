@@ -5,11 +5,26 @@
 }
 
 body {
+    min-height: calc(100vh - 100px);
     font-family: 'Roboto';
+    color: #32413F;
+    background-image: url('/img/background.jpg');
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main {
+    margin-top: 100px;
 }
 
 ul {
     list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
     padding: 0;
     margin: 0;
 }
